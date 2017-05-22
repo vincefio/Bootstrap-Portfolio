@@ -24,6 +24,7 @@ h1, h2, h3 {
     margin-left: 90px;
     padding: 15px 20px;
     color: #fff;
+    width: 100%;
 }
 
 .navbar{
@@ -98,22 +99,20 @@ form{
 
 .pwrap{
 	position: relative;
+	width: 100%;
+
 }
 
-.p-label{
-	background-color: #4aaaa5;
-	width: 180px;
-	position: absolute;
+.banner-wrap{
+	width: 100%;
 	text-align: center;
-	left: 97.5px;
-    bottom: 50px;
-    
+	position: absolute;
+	bottom: 25%;
+	color: #fff;
+	background-color: #4aaaa5;
 }
 
-.p-label p{
-	color: #fff;
-    margin: 10px;
-}
+
 
 /*Footer*/
 footer{
@@ -133,7 +132,7 @@ footer p{
 	margin-top: 10px;
 }
 
-@media screen and (max-width: 768px ){
+@media screen and (max-width: 769px ){
 	.main-name{
 
 		margin: 0;
@@ -149,3 +148,16 @@ footer p{
 }
 
 }
+
+/*@media screen and (min-width: 992px ){
+	.p-label{
+		left: 50px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.p-label{
+		left: 80px;
+	}
+}
+*/

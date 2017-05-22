@@ -14,6 +14,10 @@ h1, h2, h3 {
 }
 /*Header*/
 
+/*button.navbar-toggle{
+	    margin: 35px 25px 0 0;
+}*/
+
 .main-name{
 	background-color: #4aaaa5;
 	margin-bottom: 0;
@@ -89,6 +93,26 @@ form{
 	width: 180px;
 	height: 180px;
 	padding: 10px;
+	
+}
+
+.pwrap{
+	position: relative;
+}
+
+.p-label{
+	background-color: #4aaaa5;
+	width: 180px;
+	position: absolute;
+	text-align: center;
+	left: 97.5px;
+    bottom: 50px;
+    
+}
+
+.p-label p{
+	color: #fff;
+    margin: 10px;
 }
 
 /*Footer*/
@@ -107,4 +131,21 @@ footer{
 footer p{
 	color: #fff !important;
 	margin-top: 10px;
+}
+
+@media screen and (max-width: 768px ){
+	.main-name{
+
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar{
+		padding: 0;
+	}
+
+	button.navbar-toggle{
+	    margin: 20px 25px 15px 0;
+}
+
 }

@@ -1,0 +1,86 @@
+/*General Page Styles*/
+body{
+	
+	margin: 0;
+	background-image: url(../images/whirlpool/whirlpool.png);
+}
+
+p{
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+/*Header*/
+
+.main-name{
+	background-color: #4aaaa5;
+	margin-bottom: 0;
+    margin-left: 90px;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+.navbar{
+	border-bottom: 2px solid #ccc;
+	padding-right: 65px;
+}
+
+.navbar li a {
+  
+  line-height: 89.2px;
+  padding: 0 25px;
+}
+
+
+/*Main Section Elements*/
+.teal{
+	color: #4aaaa5;
+}
+
+.icon{
+	height: 65px;
+	width: 65px;
+	margin: 0 5px 15px 5px;
+}
+
+.content-line{
+	border-bottom: 2px solid #cccccc;
+}
+
+.content-line2{
+	border-bottom: 1px solid #cccccc;
+}
+
+.section1{
+	background-color: #fff;
+}
+
+#about-text{
+	padding: 10px;
+}
+
+.section2{
+	background-color: #fff;
+	text-align: center;
+}
+
+
+/*Footer*/
+footer{
+	clear: both;
+	background-color: #666;
+	border-top: 6px solid #4aaaa5;
+	padding: 10px 0;
+	background-color: #666666;
+	text-align: center;
+	color: #fff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+footer p{
+	color: #fff !important;
+	margin-top: 10px;
+}

@@ -1,6 +1,6 @@
 /*General Page Styles*/
 body{
-	
+	padding-bottom: 75px;
 	margin: 0;
 	background-image: url(../images/whirlpool/whirlpool.png);
 }
@@ -33,7 +33,9 @@ h1, h2, h3 {
   padding: 0 25px;
 }
 
-
+.header-list a{
+	color: #4aaaa5 !important;
+}
 /*Main Section Elements*/
 .teal{
 	color: #4aaaa5;
@@ -66,6 +68,28 @@ h1, h2, h3 {
 	text-align: center;
 }
 
+
+/*Contact Page*/
+
+.form-group{
+	padding: 0 15px;
+}
+
+button{
+	    margin: 0 15px ;
+}
+
+form{
+	padding-bottom: 15px;
+}
+
+/*Portfolio Page Styling*/
+
+.picon{
+	width: 180px;
+	height: 180px;
+	padding: 10px;
+}
 
 /*Footer*/
 footer{
